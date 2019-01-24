@@ -15,9 +15,9 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
- 	gluon-ebtables-source-filter \
+	gluon-ebtables-source-filter \
 	gluon-ebtables-filter-ra-dhcp \
-    respondd-module-airtime \
+	respondd-module-airtime \
 	gluon-web-admin \
 	gluon-web-autoupdater \
 	gluon-web-wifi-config \
@@ -29,7 +29,7 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	iptables \
 	iwinfo \
-    gluon-web-private-wifi 
+	gluon-web-private-wifi 
 	#gluon-tunneldigger-watchdog
 
 
@@ -177,7 +177,7 @@ GLUON_TLWDR4900_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_P
 #		to decide if a version is newer or not.
 
 #DEFAULT_GLUON_RELEASE := 0.6+mstr$(shell date '+%Y%m%d')
-DEFAULT_GLUON_RELEASE := v2018.1.4-FFKW-tunneldigger
+DEFAULT_GLUON_RELEASE := v2018.2-FFKW-tunneldigger
 
 
 ##	GLUON_RELEASE
@@ -188,7 +188,7 @@ DEFAULT_GLUON_RELEASE := v2018.1.4-FFKW-tunneldigger
 #			gluon-ff%site_code%-23.42+5-%router_model%.bin
 
 # Allow overriding the release number from the command line
-GLUON_RELEASE ?= v2018.1.4-FFKW-tunneldigger
+GLUON_RELEASE ?= v2018.2-FFKW-tunneldigger
 
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
@@ -198,4 +198,3 @@ GLUON_LANGS ?= en de
 
 # Region settings for ARCHERC7
 GLUON_REGION ?= eu
-
