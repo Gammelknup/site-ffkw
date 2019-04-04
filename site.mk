@@ -25,7 +25,8 @@ GLUON_SITE_PACKAGES := \
         gluon-status-page \
         gluon-web-private-wifi \
 	gluon-setup-mode \
-	gluon-mesh-vpn-tunneldigger \
+#	gluon-mesh-vpn-tunneldigger \
+        gluon-mesh-vpn-fastd \
 	gluon-radvd \
 	haveged \
         iptables \
